@@ -116,7 +116,7 @@ nav a .logo{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 70%;
     height: 100%;
 }
 .about .container .about-cards .card{
@@ -143,4 +143,46 @@ nav a .logo{
     text-align: center;
 
     color: #000000;
+}
+
+/* Projects */
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.projects .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.projects .container .projects-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-self: stretch;
+}
+.projects .container .projects-cards .column{
+    margin: 0px 5px;
+}
+.projects .container .projects-cards .card{
+ 
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.projects .container .projects-cards .half-card{
+  
+    width: 300px;
+    height: 230px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
