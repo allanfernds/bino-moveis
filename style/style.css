@@ -165,14 +165,14 @@ nav a .logo{
     font-size: 37px;
     line-height: 77px;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .projects{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#40382D;
+    background-color:#fff;
 }
 .projects .container{
 
@@ -217,6 +217,9 @@ nav a .logo{
 }
 
 /* Contact */
+.contact h2{
+    top:0;
+}
 
 .contact{
     border-top: 2px solid yellow;
@@ -232,12 +235,15 @@ nav a .logo{
     align-items: center;
 }
 .contact .container{
-    width: 100%px;
-    height: 100%px;
-
+    width: 70%;
+    height: 30%;
     background: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 4px;
     padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .contact .container .icons img{
     width: 120px;
@@ -248,5 +254,5 @@ nav a .logo{
     height: 42px;
     border: none;
     background: #24DA57;
-    border-radius: 10px;
+    border-radius: px;
 }
