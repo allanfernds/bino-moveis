@@ -72,13 +72,27 @@ nav a .logo{
 .header .container p{
     width: 64%;
 }
-.header .container button{
-    display: block;
-    width: 131px;
+.call-btn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
     height: 42px;
     border: none;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:600;
+    border: 2px solid transparent;
+}
+.call-btn:hover {
+    background-color: rgb(247, 247, 114);
+}
+a:visited {
+    color: black;
 }
 
 /* About */
@@ -91,16 +105,15 @@ nav a .logo{
     padding-bottom: 100px;
 }
 .section-title{
+    margin: 20px 0;
     width: 571px;
     height: 75px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 37px;
     line-height: 77px;
     text-align: center;
-
     color: #000000;
 }
 .about .container {
@@ -111,10 +124,7 @@ nav a .logo{
     width: 100%;
     gap: 30px;
 }
-.about .container .description{
-    text-align: center;
-    width: 30%;
-}
+
 .about .container .about-cards{
     margin-top: 50px;
     display: flex;
@@ -126,7 +136,7 @@ nav a .logo{
 }
 .about .container .about-cards .card{
     width: 230px;
-    height: 230px;
+    height: 200px;
     padding: 20px;
     margin: 20px;
     background: #FCFF51;
@@ -134,6 +144,7 @@ nav a .logo{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor:default;
 }
 
 .about .container .about-cards .card h5{
@@ -149,8 +160,25 @@ nav a .logo{
 
     color: #000000;
 }
-.about .container .about-cards .card p{
-    text-align: center;
+
+i {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.about .container .about-us {
+    display: flex;
+    justify-content:center;
+    width: 80%;
+}
+.about .container .about-us img {
+    margin-left: 20px;
+    width: 500px;
+}
+.about .container .about-us .text-us {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
 }
 
 /* Projects */
@@ -217,14 +245,11 @@ nav a .logo{
 }
 
 /* Contact */
-.contact h2{
-    
-}
 
 .contact{
     margin-top: 50px;
     border-top: 2px solid yellow;
-    background-image: url('../img/BG\ 2.png');
+    background-image: url('../img/backgrounds/pexels-max-vakhtbovych-7166942.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -240,11 +265,15 @@ nav a .logo{
     height: 500px;
     background: #FFFFFF;
     border-radius: 4px;
-    padding: 20px;
+    /* padding: 50px 10px; */
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+iframe {
+    margin: 40px;
 }
 .contact .container .icons {
     display: flex;
@@ -288,6 +317,7 @@ footer{
 }
 footer .container{
     display: flex;
+    justify-content: center;
 }
 footer .container div{
     margin-left: 60px;
