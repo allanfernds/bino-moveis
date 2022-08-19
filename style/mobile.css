@@ -1,5 +1,13 @@
 @media screen and (max-width: 768px) {
 
+    .navbar nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar nav ul {
+        display: none;
+    }
+
     .about .container .about-us{
         flex-direction: column;
         justify-content: center;
@@ -18,15 +26,46 @@
         text-align: center;
     }
 
+    .section-title {
+        font-size: 10px;
+    }
+
     .about .container .about-us .text-us h2 {
         margin-bottom: 10px;
+    }
+    
+    .about .container .about-us .text-us p {
+        width: 287px;
+    }
+
+    .service-list ul li div {
+        width: 300px;
     }
 
     .contact .container {
         width: 300px;
     }
 
-    .section-title {
+    .projects .container {
+        width: 300px;
+    }
+
+    .projects .container h2 {
         width: 100px;
+    }
+
+    .projects .container .projects-cards{
+        width: 300px;
+    }
+
+    footer .container {
+        margin-top: 50px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    footer .container div {
+        margin: 20px 20px;
     }
 }
