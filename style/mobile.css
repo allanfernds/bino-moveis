@@ -27,7 +27,7 @@
     }
 
     .section-title {
-        font-size: 10px;
+        font-size: 30px;
     }
 
     .about .container .about-us .text-us h2 {
@@ -39,7 +39,7 @@
     }
 
     .service-list ul li div {
-        width: 300px;
+        width: 250px;
     }
 
     .contact .container {
@@ -51,11 +51,17 @@
     }
 
     .projects .container h2 {
-        width: 100px;
+        width: 100%;
+        font-size: 30px;
     }
 
     .projects .container .projects-cards{
         width: 300px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 250px;
     }
 
     footer .container {
