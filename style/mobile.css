@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+
+    .about .container .about-us{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .container .about-us img {
+        width: 70px;
+        display: none;
+    }
+
+    .about .container .about-us .text-us{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .about .container .about-us .text-us h2 {
+        margin-bottom: 10px;
+    }
+
+    .contact .container {
+        width: 300px;
+    }
+
+    .section-title {
+        width: 100px;
+    }
+}
