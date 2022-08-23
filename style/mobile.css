@@ -1,11 +1,38 @@
 @media screen and (max-width: 768px) {
 
-    .navbar nav {
+
+    header {
         display: flex;
         flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        border: 1px solid red;
+        background-color: rgba(0, 0, 0, 0.33);
+        height: 70px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
     }
-    .navbar nav ul {
+    .logo {
+        margin-top: 10px;
+        width: 100px;
+    }
+
+
+    .navbar nav {
         display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top:70px;
+        border: 1px solid red;
+    }
+
+    .header .container{
+        height: 500px;
     }
 
     .about .container .about-us{
@@ -24,6 +51,7 @@
         align-items: center;
         margin-bottom: 30px;
         text-align: center;
+        width: 319px;
     }
 
     .section-title {
@@ -63,15 +91,18 @@
         width: 300px;
         height: 250px;
     }
-
+    footer {
+        width: 100%;
+    }
     footer .container {
         margin-top: 50px;
-        width: 100%;
+        width: 90%;
         flex-direction: column;
         justify-content: center;
         align-content: center;
     }
     footer .container div {
-        margin: 20px 20px;
+        width: 100%;
+        margin-left: 5px;
     }
 }
