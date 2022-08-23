@@ -6,7 +6,6 @@
         flex-direction: column;
         justify-items: center;
         align-items: center;
-        border: 1px solid red;
         background-color: rgba(0, 0, 0, 0.33);
         height: 70px;
         width: 100%;
@@ -28,7 +27,6 @@
         display: flex;
         flex-direction: column;
         margin-top:70px;
-        border: 1px solid red;
     }
 
     .header .container{
