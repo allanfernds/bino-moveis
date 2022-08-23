@@ -2,22 +2,9 @@
 
 
     header {
-        display: flex;
         flex-direction: column;
-        justify-items: center;
-        align-items: center;
         background-color: rgba(0, 0, 0, 0.33);
-        height: 70px;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
     }
-    .logo {
-        margin-top: 10px;
-        width: 100px;
-    }
-
 
     .navbar nav {
         display: none;
@@ -29,7 +16,7 @@
         margin-top:70px;
     }
 
-    .header .container{
+    .hero{
         height: 500px;
     }
 
