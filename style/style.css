@@ -70,8 +70,8 @@ nav ul li a:hover{
     height: 100%;
 
 }
-.header .container p{
-    width: 64%;
+.hero  h1{
+    font-size: 40px;
 }
 .call-btn {
     display:flex;
@@ -144,12 +144,13 @@ a:visited {
     padding: 20px;
     margin: 20px;
     margin-bottom: 50px;
-    background: #FCFF51;
+    background: #fcc400;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     cursor:default;
+    border-radius: 10px;
 }
 
 .about .container .about-cards .card h5{
@@ -203,6 +204,10 @@ i {
     display: flex;
     flex-direction: column;
     width: 400px;
+}
+
+.text-center {
+ font-size: 30px;
 }
 
 /* Projects */
@@ -286,7 +291,7 @@ i {
 }
 .contact .container{
     width: 70%;
-    height: 500px;
+    height: 600px;
     background: #FFFFFF;
     border-radius: 4px;
     padding: 30px 0;
@@ -297,8 +302,7 @@ i {
 }
 
 iframe {
-    width: 400px;
-    height: 350px;
+    width: 80%
 }
 .contact .container .icons {
     display: flex;
@@ -311,30 +315,38 @@ iframe {
 }
 
 /*Rodapé*/
-.footer{
+.footer {
+    padding: 30px 0;
     border-top:1px solid #FCFF51;
     background-color: #2c1f01;
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
 }
-.footer div{
-    margin-left: 60px;
+.footer .footer-div {
     color: white;
-    width: 230px;
+    width: 200px;
 }
+
+.footer .footer-div p {
+    width:  200px;
+}
+
 .footer h5{
     color: #FCFF51;
     font-size: 16px;
     margin-top: 10px;
+    width: 100px;
 }
 .footer .container p{
+    width: 100px;
+}
+.footer img {
+    margin-left: 20px;
     width: 200px;
 }
-footer img {
-    width: 200px;
-}
-footer i, footer p {
+.footer i{
     color: white;
 }
