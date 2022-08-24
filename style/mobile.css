@@ -22,15 +22,31 @@
         height: 500px;
     }
 
-    .about .container .about-us{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .hero h1{
+        font-size: 30px;
     }
 
+    .about .container .about-us{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .about .container .about-us .text-us {
+        width: 300px;
+        
+    }
+/* 
+    .about .container .about-us p{
+        width: 300px;
+    }
+     */
+
     .about .container .about-us img {
-        width: 70px;
-        display: none;
+
+        width: 300px;
+        
     }
 
     .about .container .about-us .text-us{
@@ -38,7 +54,6 @@
         align-items: center;
         margin-bottom: 30px;
         text-align: center;
-        width: 319px;
     }
 
     .section-title {
@@ -57,8 +72,16 @@
         width: 250px;
     }
 
+
+    .about .container .about-cards .card{
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
     .text-center {
+        padding: 10px;
         text-align: center;
+        font-size: 22px;
     }
 
     .contact {

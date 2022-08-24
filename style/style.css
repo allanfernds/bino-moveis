@@ -144,7 +144,7 @@ a:visited {
     padding: 20px;
     margin: 20px;
     margin-bottom: 50px;
-    background: #fcc400;
+    background: #ffe74c;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,7 +176,7 @@ a:visited {
     display: flex;
     width: 90%;
     margin: 10px;
-    background-color: rgb(252, 255, 217);
+    background-color: #ffe74c;
     padding: 10px;
     align-items: center;
     border-radius: 10px;
@@ -194,16 +194,19 @@ i {
 .about .container .about-us {
     display: flex;
     justify-content:center;
+    flex-wrap: wrap;
     width: 80%;
 }
+
 .about .container .about-us img {
-    margin-left: 20px;
     width: 500px;
+    border-radius: 10px;
 }
 .about .container .about-us .text-us {
     display: flex;
     flex-direction: column;
     width: 400px;
+    margin-bottom: 40px;
 }
 
 .text-center {
@@ -290,7 +293,7 @@ i {
     align-items: center;
 }
 .contact .container{
-    width: 70%;
+    width: 700px;
     height: 600px;
     background: #FFFFFF;
     border-radius: 4px;
